@@ -420,8 +420,6 @@ exports["Spark.prototype.servoWrite"] = {
   }
 };
 
-
-
 exports["Spark.prototype.pinMode"] = {
   setUp: function(done) {
 
@@ -717,3 +715,11 @@ exports["Spark.prototype.pinMode"] = {
     test.done();
   }
 };
+
+exports["Spark.prototype.connect"] = {
+  setUp: function(){},
+  tearDown: function(){},
+  connect: function(test) {
+
+  }
+}
